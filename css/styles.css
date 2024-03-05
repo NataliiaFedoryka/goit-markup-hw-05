@@ -494,12 +494,14 @@ margin-bottom: 16px;
 .social-list-link:hover,
 .social-list-link:focus {
 background-color: #31d0aa;
-
 }
 .subskribe {
+  display: block;
 }
 .subscribe-form {
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 24px;
 }
 .subscribe-text {
@@ -512,9 +514,6 @@ color: #FFFFFF;
 margin-bottom: 16px;
 }
 .subscribe-label {
-  display: flex;
-  flex-direction: column;
-  
 
 margin-left: 80px;
 }
@@ -531,7 +530,6 @@ font-size: 12px;
 line-height: 2;
 letter-spacing: 0.04em;
 color:#FFFFFF
-
 }
 .subscribe-input::placeholder {
   font-family: var(--font-family);
@@ -542,11 +540,9 @@ color:#FFFFFF
   letter-spacing: 0.04em;
   color: #FFFFFF;
 }
-
 .subscribe-input:focus {
 outline: none;
 }
-
 .subscribe-button {
 display: flex;
 gap: 16px;
@@ -587,7 +583,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
   opacity: 0;
   visibility: hidden;
   position: none;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 } 
 .is-open {
   opacity: 1;
@@ -608,6 +604,7 @@ pointer-events: auto;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
   padding: 72px 24px 24px 24px ;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  
 }
 .modal-close-btn {
   position: absolute;
@@ -626,6 +623,7 @@ transform: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cub
 stroke: #111;
 line-height: 0;
 background-color: #e7e9fc; 
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .modal-close-btn:hover,
@@ -828,4 +826,5 @@ color: #FFFFFF;
 cursor: pointer;
 border: none;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+margin: 0 auto;
 }
