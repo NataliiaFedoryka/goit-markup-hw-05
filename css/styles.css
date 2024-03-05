@@ -697,9 +697,11 @@ display: block;
 }
 /* div */
 .review-worm-field-wrapper {
+  margin-bottom: 8px;
+}
+.comment {
   margin-bottom: 16px;
 }
-
 .review-form-input-wrapper {
 position: relative;
 }
@@ -774,10 +776,10 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
   
   fill: #404BBF;
 }
-.review-form-privacy-checkbox:checked > .review-form-own-check-box {
+.review-form-privacy-checkbox:checked + .review-form-own-check-box {
   border: none;
 }
-.review-form-privacy-checkbox:checked > .review-form-own-check-box {
+.review-form-privacy-checkbox:checked + .review-form-own-check-box {
   fill: #F4F4FD;
 }
 
