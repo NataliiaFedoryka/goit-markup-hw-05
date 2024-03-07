@@ -769,10 +769,10 @@ color: #8e8f99;
   }
    .review-form-privacy-checkbox:checked +  
    .review-form-checkbox-label  
-   .review-form-owncheck-box { 
+   .review-form-own-checkbox { 
    border-color: #404BBF; 
     border: none ; 
-     fill: #f4f4fd; 
+    fill: #f4f4fd; 
    background-color: #404BBF; }
 
    
@@ -789,7 +789,7 @@ color: #8e8f99;
 
   .review-form-privacy-checkbox:focus + 
   .review-form-checkbox-label 
-  .review-form-own-check-box {
+  .review-form-own-checkbox {
     
   }
 .pryvacy-policy-link {
@@ -806,7 +806,7 @@ fill: #FFFFFF;
 border-radius: 2px;
 border: 1px solid var(--navy-blue-modal);}
 
-.review-form-privacy-checkbox:checked + .review-form-own-check-box {
+.review-form-privacy-checkbox:checked + .review-form-own-checkbox {
   border: none; 
   background-color: #404BBF; 
 fill: #FFFFFF;
