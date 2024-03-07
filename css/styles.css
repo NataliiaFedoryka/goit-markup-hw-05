@@ -744,11 +744,10 @@ color: #8e8f99;
   border-radius: 2px;
   border: 1px solid var(--navy-blue-modal);
 }
-.review-form-own-check-box { 
+.review-form-own-checkbox { 
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  border-radius: 2px;
   width: 16px;
   height: 16px;
   cursor:pointer;
